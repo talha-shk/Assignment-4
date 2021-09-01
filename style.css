@@ -1,0 +1,40 @@
+img{
+    border: 1px solid black;
+    padding: 5px;
+    margin: 5px;
+}
+.img-div{
+    border: 2px solid red;
+    width: 30%;
+    height: 30%;
+}
+
+/* Task 4 CSS */
+.task4-div{
+    width: 50%;
+}
+.task4-div img{
+    width: 50%;
+}
+
+/* task 5 CSS */
+.counter{
+    border: 1px solid rgb(182, 182, 182);
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.count-btn{
+    border: none;
+    border: 2px solid rgb(100, 100, 100);
+    color: wheat;
+    background-color: rgb(121, 121, 121);
+    cursor: pointer;
+    margin: 0px 15px;
+    font-size: 2rem;
+}
+#count{
+    padding: 0.5rem 1rem;
+    border: 1px solid rgb(151, 151, 151);
+}

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>SMIT Assignment Chapter 43-48</title>
+</head>
+<body>
+    <!-- task 1 HTML -->
+    <h1>Task 1</h1>
+    <h3 onclick="clickMe()"><a href="#">Click Me</a></h3>
+
+    <!-- Task 2 HTML -->
+    <h1>Task 2</h1>
+    <div>
+        <img onclick="image()" src="https://source.unsplash.com/random/400x200" alt="requires internet connection to load image">
+        <img onclick="image()" src="https://source.unsplash.com/random/401x200" alt="requires internet connection to load image">
+        <img onclick="image()" src="https://source.unsplash.com/random/402x200" alt="requires internet connection to load image">
+    </div>
+    
+    <!-- Task 3 HTML -->
+    <h1>Task 3</h1>
+    <table border="1">
+        <tr>
+            <th>Name</th>
+            <th>Institute</th>
+            <th>Roll No</th>
+        </tr>
+        <tr class="list">
+            <td>Talha</td>
+            <td>SMIT</td>
+            <td>WM-1097</td>
+            <td><button onclick="delet()" class="del">Delete</button></td>
+        </tr>
+        <tr class="list">
+            <td>Umair</td>
+            <td>SMIT</td>
+            <td>WM-1077</td>
+            <td><button onclick="delet()" class="del">Delete</button></td>
+        </tr>
+        <tr class="list">
+            <td>Zubair</td>
+            <td>SMIT</td>
+            <td>WM-1022</td>
+            <td><button onclick="delet()" class="del">Delete</button></td>
+        </tr>
+        <tr>
+            <td>Fazeel</td>
+            <td>SMIT</td>
+            <td>WM-1098</td>
+            <td><button onclick="delet()" class="del">Delete</button></td>
+        </tr>
+        <tr>
+            <td>Osama</td>
+            <td>SMIT</td>
+            <td>WM-1099</td>
+            <td><button onclick="delet()" class="del">Delete</button></td>
+        </tr>
+        <tr>
+            <td>Sameer</td>
+            <td>SMIT</td>
+            <td>WM-1076</td>
+            <td><button onclick="delet()" class="del">Delete</button></td>
+        </tr>
+        <tr>
+            <td>Raheel</td>
+            <td>SMIT</td>
+            <td>WM-1066</td>
+            <td><button onclick="delet()" class="del">Delete</button></td>
+        </tr>
+        <tr>
+            <td>Danish</td>
+            <td>SMIT</td>
+            <td>WM-1045</td>
+            <td><button onclick="delet()" class="del">Delete</button></td>
+        </tr>
+        <tr>
+            <td>Qayoom</td>
+            <td>SMIT</td>
+            <td>WM-1054</td>
+            <td><button onclick="delet()" class="del">Delete</button></td>
+        </tr>
+        <tr>
+            <td>Rashid</td>
+            <td>SMIT</td>
+            <td>WM-1034</td>
+            <td><button onclick="delet()" class="del">Delete</button></td>
+        </tr>
+    </table>
+
+    <!-- Task 4 -->
+    <h1>Task 4</h1>
+    <div class="task4-div">
+            <img class="task4-img" src="img 1.jpg" onmouseover="this.src='img 2.jpg'" onmouseout="this.src='img 1.jpg'" />
+    </div>
+
+    <!-- Task 5 -->
+    <h1>Task 5</h1>
+    <div class="counter">
+        <button onclick="decrement()" class="count-btn">-</button>
+        <h2 id="count">2</h2>
+        <button onclick="increment()" class="count-btn">+</button>
+    </div>
+
+    <!-- javascript link -->
+    <script src="app.js"></script>
+</body>
+</html>
